@@ -1,0 +1,38 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Roboto');
+
+* {
+  font-family: 'Nanum Gothic', 'Roboto', sans-serif;
+}
+
+#wrap{
+  width: 100%;
+  height: auto;
+}
+
+html, body{
+  width:100%;
+  height: 100%;
+  margin:0;
+  padding:0;
+}
+
+header, nav, section, article, aside, footer, address{
+  display: block;
+}
+
+ul, ol, li {
+  list-style:none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration:none;
+  color:#0000ff;
+}

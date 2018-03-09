@@ -1,0 +1,296 @@
+#wrap, .header, .section, .footer{
+  width: 100%;
+  min-width: 1200px;
+  height: auto;
+}
+
+p{
+  display: inline-block;
+  margin: 3px 0;
+  padding: 0;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.header{
+  width: 100%;
+  height: auto;
+  background: rgba(255, 255, 255, 0.9);
+  color: #009bfa;
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 99;
+}
+
+.header>.GNB{
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.header .GNB ul li{
+  width: 20%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  font-size: 0.7em;
+  line-height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.section{
+  width: 100%;
+  height: auto;
+  color: #000000;
+  position: relative;
+  top:50px;
+  left: 0;
+}
+
+.section .sect {
+  width: 75%;
+  height: auto;
+  border: 1px solid rgba(35, 104, 227, 0);
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 15.625px 0;
+}
+
+.section .sect ul li{
+  margin:5px 0;
+}
+
+.section .sect ul .title{
+  margin:15px 0;
+  font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+.section .back.g1{
+  background: #009bfa;
+}
+
+.section .sect.top{
+  color: #ffffff;
+}
+
+.section .sect.top>div{
+  width: 100%;
+  height:33.33%;
+}
+
+.section .sect.top .middle{
+  text-align: right;
+  font-size: 1.5em;
+}
+
+.section .sect.top .inform.top{
+  width:50%;
+  height:auto;
+  border-bottom:1px solid;
+}
+
+.section .sect.top .inform.bottom{
+  font-size: 0.9em;
+}
+
+
+
+
+
+
+
+
+
+.section .back.g2{
+  background:burlywood;
+  height: auto;
+  position:relative;
+  top:0;
+  left:0;
+
+}
+
+.section .back.g2>.sect{
+  height: 600px;
+}
+
+.section .back.g2>.sect>.slogan1{
+  width:100%;
+  max-width:350px;
+  position: absolute;
+  right:15%;
+  margin-top:200px;
+}
+
+
+
+
+
+
+
+
+.section .back.g3{
+  background:#ffffff;
+  overflow:hidden;
+}
+
+.section .back.g3 .graph .olimpic div{
+  line-height:100px;
+  float:left;
+}
+
+.section .back.g3 .graph .olimpic div:nth-child(1){
+  width:15%;
+}
+
+.section .back.g3 .graph .olimpic div:nth-child(2){
+  width:75%
+}
+
+
+
+.section .back.g4{
+  height:auto;
+  background:#dddddd;
+  overflow:hidden;
+}
+
+.section .back.g4 .top{
+  width:100%;
+  max-width:400px;
+}
+
+.section .back.g4 .photo>div{
+  width:250px;
+  line-height:150px;
+  float:left;
+  margin:20px 1%;
+  border:1px solid;
+  text-align:center;
+}
+
+
+
+
+
+.footer .newsletter ul li{
+  margin:5px 0;
+}
+
+.footer .newsletter ul .title{
+  margin:15px 0;
+  font-weight:bold;
+}
+
+
+
+
+.footer .back.g5{
+  background:#ffffff;
+  height:auto;
+  padding: 50px 0;
+}
+
+.footer .back.g5 .newsletter{
+  overflow:hidden;
+  width:75%;
+  margin:0 auto;
+}
+
+
+.footer .back.g5 .newsletter>div{
+  width:50%;
+  float:left;
+}
+
+.footer .back.g5 .newsletter .left .top{
+  border-bottom:2px solid;
+  margin-bottom:15px;
+
+}
+
+
+.footer .back.g5 .right {
+  text-align:center;
+  padding:73px 0;
+}
+
+.footer .back.g5 .right button{
+  background:#009bfa;
+  color:#ffffff;
+  border:none;
+  padding:20px 50px
+
+}
+
+
+
+
+.footer .back.g6{
+  background:#009bfa;
+  color:#ffffff;
+  overflow: hidden;
+  margin: 0 auto;
+
+}
+
+.footer .back.g6 .copyright{
+  width: 75%;
+  height: auto;
+  border: 1px solid rgba(35, 104, 227, 0);
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 15.625px 0;
+  overflow: hidden;
+}
+
+.footer .back.g6 .writer{
+  width: 280px;
+  height: auto;
+  float: left;
+  font-size: 1.2em;
+}
+
+.footer .back.g6 .writer:nth-child(2n){
+  margin: 0 20px;
+}
+
+.footer .back.g6 .writer ul li{
+  width: 50%;
+  float: left;
+}
+
+.footer .back.g6 .writer>h4{
+  font-size: 1.4em;
+  margin-bottom: 10px;
+
+}
+
+.footer .back.g6 .copy{
+  width: 75%;
+  height: auto;
+  padding: 30px 0;
+  margin: 0 auto;
+}
